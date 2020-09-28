@@ -1,0 +1,39 @@
+.gsap
+  display: block
+  position: relative
+  width: 100%
+
+
+  &__svg.-main
+    display: block
+    position: absolute
+    z-index: -1
+    top: -600px
+
+  &__container 
+    display: block
+    width: 80%
+    max-width: 1240px
+    margin: auto
+
+  &__title
+    font-size: 80px 
+    text-align: center
+    padding: 100px 0px 
+
+  &__inner 
+    display: flex
+    flex-wrap: wrap 
+    align-items: center
+    justify-contain: space-between
+    row-gap: 100px
+
+  &__item
+    width: 50%
+
+    +max($bp-md)
+      width: 100%
+  &__text
+    font-size: 30px
+
+    
